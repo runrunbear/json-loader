@@ -41,7 +41,7 @@ const json = require('./file.json');
 ```js
 module.exports = {
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.json$/,
         loader: 'json-loader'
